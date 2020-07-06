@@ -1,3 +1,6 @@
+#2번 짝수 피보나치 수열
+#4백만을 넘지 않는 피보나치 수열의 짝수 항들의 합을 구하는 문제 
+
 dp = [1, 2]
 '''#Normal fibonacci recursion function using dynamic programming
 def fibo(n):

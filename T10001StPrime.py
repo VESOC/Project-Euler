@@ -1,3 +1,6 @@
+#7번 10001번째 소수
+#10001번째 소수를 구하는 문제
+
 def ifPrime(n):
   for j in range(2, n):
     if n%j == 0:
@@ -8,20 +11,21 @@ def T10001StPrime():
 	i, n = 0, 2
 	while i != 10001:
 		if ifPrime(n):
-			#print(n)
 			i += 1
 		n += 1
 	print(n-1)
 
-l = [i for i in range(2000001)]
+#에라토스테네스의 체
+l = [i for i in range(200001)]
+
 def EP():
-	for i in range(2, 2000001):
+	for i in range(2, 200001):
 		if i != 0:
-			for j in range(i+i, 2000001, i):
+			for j in range(i+i, 200001, i):
 				if j < len(l):
 					l[j] = 0
 	n = []
 	for i in l:
 		if i != 0:
 			n.append(i)
-	print(n[100001])
+	print(n[10001])

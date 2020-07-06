@@ -5,6 +5,9 @@ import LargestPalindromeNumber as LPN
 import MultipleOf1To20 as M1T20
 import Sum100SqMinusSqOfSum100 as SHSMSSH
 import T10001StPrime as TTOPrime
+import LargestProductOfSeries as LPOF
+import PythagoreanTriplet1000 as PTT
+import SumOfPrimes as SOP
 import timeit
 
 M35.Multi3N5()
@@ -26,3 +29,11 @@ SHSMSSH.SHSMSSH()
 #TTOPrime.T10001StPrime()
 
 TTOPrime.EP() # Sieve of Eratosthenes Method - Faster
+
+
+LPOF.LPS()
+LPOF.LPSM2()
+
+PTT.PTT()
+
+SOP.SOP()

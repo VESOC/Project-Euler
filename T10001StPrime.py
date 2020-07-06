@@ -20,12 +20,11 @@ l = [i for i in range(200001)]
 
 def EP():
 	for i in range(2, 200001):
-		if i != 0:
+		if l[i] != 0:
 			for j in range(i+i, 200001, i):
-				if j < len(l):
-					l[j] = 0
+				l[j] = 0
 	n = []
 	for i in l:
-		if i != 0:
+		if i not in (0, 1):
 			n.append(i)
-	print(n[10001])
+	print(n[10000])

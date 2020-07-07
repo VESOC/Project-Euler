@@ -8,6 +8,16 @@ import T10001StPrime as TTOPrime
 import LargestProductOfSeries as LPOF
 import PythagoreanTriplet1000 as PTT
 import SumOfPrimes as SOP
+import LargestProductInGrid as LPG
+
+
+
+
+
+
+
+
+import FactorialDigitSum as FDS
 import timeit
 
 M35.Multi3N5()
@@ -37,3 +47,8 @@ LPOF.LPSM2()
 PTT.PTT()
 
 SOP.SOP()
+
+LPG.LPG()
+
+FDS.FDS()
+FDS.FDSM2()

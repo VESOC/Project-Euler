@@ -5,7 +5,7 @@ import LargestPalindromeNumber as LPN
 import MultipleOf1To20 as M1T20
 import Sum100SqMinusSqOfSum100 as SHSMSSH
 import T10001StPrime as TTOPrime
-import LargestProductOfSeries as LPOF
+import LargestProductOfSeries as LPOS
 import PythagoreanTriplet1000 as PTT
 import SumOfPrimes as SOP
 import LargestProductInGrid as LPG
@@ -24,7 +24,7 @@ M35.Multi3N5()
 M35.Multi3N5M()
 M35.Multi3N5MSet()
 
-EF.fiboFor()
+EF.fiboRecur()
 EF.fiboWhile()
 
 LPF.LPF()
@@ -40,9 +40,8 @@ SHSMSSH.SHSMSSH()
 
 TTOPrime.EP() # Sieve of Eratosthenes Method - Faster
 
-
-LPOF.LPS()
-LPOF.LPSM2()
+LPOS.LPS()
+LPOS.LPSM2()
 
 PTT.PTT()
 

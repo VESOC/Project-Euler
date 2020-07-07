@@ -25,7 +25,7 @@ M35.Multi3N5M()
 M35.Multi3N5MSet()
 
 EF.fiboRecur()
-EF.fiboWhile()
+EF.fiboRep()
 
 LPF.LPF()
 

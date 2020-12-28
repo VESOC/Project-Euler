@@ -9,45 +9,62 @@ import LargestProductOfSeries as LPOS
 import PythagoreanTriplet1000 as PTT
 import SumOfPrimes as SOP
 import LargestProductInGrid as LPG
-
-
-
-
-
-
-
+import HighlyDivisibleNumber as HDN
+import First10DigitsOfNumbers as FTD
+import LongestCollatzSequence as LCS
+import LatticePaths as LP
+import PowerDigitSum as PDS
+import NumberLetterCount as NLC
+import MaximumSumOfPath as MSP
 
 import FactorialDigitSum as FDS
+import NamesScore as NS
 import timeit
 
-M35.Multi3N5()
-M35.Multi3N5M()
-M35.Multi3N5MSet()
+# M35.Multi3N5()
+# M35.Multi3N5M()
+# M35.Multi3N5MSet()
 
-EF.fiboRecur()
-EF.fiboRep()
+# EF.fiboRecur()
+# EF.fiboRep()
 
-LPF.LPF()
+# LPF.LPF()
 
-LPN.LPN()
-LPN.LPNM2()
+# LPN.LPN()
+# LPN.LPNM2()
 
-M1T20.M1T20()
+# M1T20.M1T20()
 
-SHSMSSH.SHSMSSH()
+# SHSMSSH.SHSMSSH()
 
-#TTOPrime.T10001StPrime()
+# #TTOPrime.T10001StPrime()
 
-TTOPrime.EP() # Sieve of Eratosthenes Method - Faster
+# TTOPrime.EP() # Sieve of Eratosthenes Method - Faster
 
-LPOS.LPS()
-LPOS.LPSM2()
+# LPOS.LPS()
+# LPOS.LPSM2()
 
-PTT.PTT()
+# PTT.PTT()
 
-SOP.SOP()
+# SOP.SOP()
 
-LPG.LPG()
+# LPG.LPG()
 
-FDS.FDS()
-FDS.FDSM2()
+# FDS.FDS()
+# FDS.FDSM2()
+
+# HDN.HDN()
+
+# FTD.FTD()
+
+# LCS.LCS()
+
+# LP.LP()
+
+# PDS.PDS()
+
+# NLC.NLC()
+
+# MSP.MSP()
+
+NS.NS()

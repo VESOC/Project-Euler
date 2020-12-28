@@ -1,21 +1,37 @@
 #3번 가장 큰 소수인 약수
 #600851475143의 가장 큰 소수인 약수를 구하는 문제 
+import math
 target = 600851475143
 
-def ifPrime(n):
-  for j in range(2, n):
+def smallest_Prime(n):
+  for j in range(2, math.ceil(math.sqrt(n))):
     if n%j == 0:
-      return False
-  return True
+      return j
+  return n
 
 def LPF():
-	i = 2
-	n = target
-	while i*i <= target:
-		if i >= n:
-			print(i)
+	global target
+	while True:
+		n = smallest_Prime(target)
+		if n < target:
+			target //= n
+		else:
+			print(target)
 			return 0
-		if n % i == 0:
-			if ifPrime(i):
-				n //= i
-		i += 1
+
+'''
+target = 10
+2*2 <= 10
+2 !>= n
+10%2==0
+2 isPrime
+10//2 = 5 = n
+i = 3
+3*3 < 10
+3 !>= 5
+5%3 != 0
+i = 4
+same as 3
+i = 5
+
+'''
